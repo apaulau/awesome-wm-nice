@@ -1,6 +1,12 @@
 -- => Colors
 -- Provides utility functions for handling colors
 -- ============================================================
+
+math = math or {}
+function math.pow(a, b)
+    return a ^ b
+end
+
 local math = math
 local floor = math.floor
 local max = math.max
